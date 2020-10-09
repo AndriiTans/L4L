@@ -1,2 +1,2 @@
 web: npm install
-web: npm prod-start
+web: npm run prod-start
