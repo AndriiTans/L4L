@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c8c6659c.chunk.css",
+    "main.js": "/static/js/main.bcbade89.chunk.js",
+    "main.js.map": "/static/js/main.bcbade89.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.fc6ea48b.chunk.js": "/static/js/2.fc6ea48b.chunk.js",
+    "static/js/2.fc6ea48b.chunk.js.map": "/static/js/2.fc6ea48b.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.2a85d9f7baeb36c11ce41986d59d8f8f.js": "/precache-manifest.2a85d9f7baeb36c11ce41986d59d8f8f.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.c8c6659c.chunk.css.map": "/static/css/main.c8c6659c.chunk.css.map",
+    "static/media/index.css": "/static/media/Lato-Thin.eb163540.ttf",
+    "static/media/bucket.9c732c13.svg": "/static/media/bucket.9c732c13.svg",
+    "static/media/checkoutError.png": "/static/media/checkoutError.28a4c454.png",
+    "static/media/checkoutSuccess.png": "/static/media/checkoutSuccess.34e21efd.png",
+    "static/media/dots_background.png": "/static/media/dots_background.9f9e16a5.png",
+    "static/media/logo.b97427e7.svg": "/static/media/logo.b97427e7.svg",
+    "static/media/logout.4c63992a.svg": "/static/media/logout.4c63992a.svg",
+    "static/media/no-product-photo.png": "/static/media/no-product-photo.54e73f31.png",
+    "static/media/selector_bottom.65576f82.svg": "/static/media/selector_bottom.65576f82.svg",
+    "static/media/selector_left.12a24580.svg": "/static/media/selector_left.12a24580.svg",
+    "static/media/selector_top.5ea8a2b9.svg": "/static/media/selector_top.5ea8a2b9.svg"
+  }
+}
