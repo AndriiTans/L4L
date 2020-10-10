@@ -1,6 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var axios = require('axios');
+var { getParsedResponseError } = require('../utils');
 
 const config = {
   baseURL: 'https://launch-your-lunch.herokuapp.com',
@@ -27,9 +28,10 @@ router.get('/', async function (req, res, next) {
     });
     res.send(response.data);
   } catch (error) {
-    console.log('error', error.code);
-    res.status(401);
-    res.send(error);
+    const { message, status } = getParsedResponseError(error);
+    console.log('error', message, status);
+    res.status(status);
+    res.send(message);
   }
 });
 
@@ -47,9 +49,10 @@ router.post('/', async function (req, res, next) {
     });
     res.send(response.data);
   } catch (error) {
-    console.log('error', error.status);
-    res.status(401);
-    res.send(error);
+    const { message, status } = getParsedResponseError(error);
+    console.log('error', message, status);
+    res.status(status);
+    res.send(message);
   }
 });
 
