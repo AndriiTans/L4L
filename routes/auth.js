@@ -28,8 +28,11 @@ router.post('/oath2/token', async function (req, res, next) {
     const accessToken = await client.getToken(tokenParams);
     res.send(JSON.stringify(accessToken));
   } catch (error) {
-    console.log('Access Token Error', error.message);
-    res.send(error);
+    const message = (error.data.payload || {}).error_description;
+    const status = ((error.data || {}).res || {}).statusCode;
+
+    res.status(status);
+    res.send(message);
   }
 });
 
